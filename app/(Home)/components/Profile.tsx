@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Data = [
     {
-        image: "/profile1.png",
+        image: "/Profile1.png",
         name: "Ronald Richards",
         company: "Google inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
