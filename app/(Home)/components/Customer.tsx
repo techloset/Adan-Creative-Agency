@@ -1,7 +1,7 @@
 import Image from "next/image";
 const Customer = () => {
   return (
-    <div className="worthSec lg:mb-[200px] bg-[#F9F9FD] dark:bg-[#020E2D] py-[105px]">
+    <div className=" lg:mb-[200px] bg-[#F9F9FD] dark:bg-[#020E2D] py-[105px]">
       <div
         className={`mx-[24px] lg:mx-[80px]  xl:mx-[160px] flex flex-col lg:flex-row gap-y-10 space-x-10 justify-between items-center`}
       >
@@ -22,7 +22,7 @@ const Customer = () => {
               10M+
               </h2>
               <p className="max-w-[214px] font-normal text-lg leading-[32px] dark:text-[#FFFFFF] text-[#111029]">
-              People who are helped because of our hard work"
+              People who are helped because of our hard work
               </p>
             </div>
  
@@ -42,7 +42,7 @@ const Customer = () => {
                 200+
               </h2>
               <p className="max-w-[214px] font-normal text-lg leading-[32px] dark:text-[#FFFFFF] text-[#111029]">
-              Support from world-renowned companies
+              Support from world-renowned companies&quot;
               </p>
             </div>
             
@@ -62,23 +62,23 @@ const Customer = () => {
 
             <ul className={`list-outside dark:text-white space-y-4 text-exact-gray text-lg`}>
               <li className="flex items-center">
-                <Image src="/checkmark.svg"  width={100} height={100}  alt="Icon" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
+                <Image src="/checkmark.svg"  width={100} height={100}  alt="" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
                 <p className="text-base font-normal lg:text-lg">Provide idea support from our creative team</p>
               </li>
               <li className="flex items-center">
-                <Image src="/checkmark.svg"   width={100} height={100} alt="Icon" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
+                <Image src="/checkmark.svg"   width={100} height={100} alt="" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
                 <p className="text-base font-normal lg:text-lg">Provide attractive and professional design services</p>
               </li>
               <li className="flex items-center">
-                <Image src="/checkmark.svg"  width={100} height={100}  alt="Icon" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
+                <Image src="/checkmark.svg"  width={100} height={100}  alt="" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
                 <p className="text-base font-normal lg:text-lg">Support for service 24 hours a week</p>
               </li>
               <li className="flex items-center">
-                <Image src="/checkmark.svg"  width={100} height={100}  alt="Icon" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
+                <Image src="/checkmark.svg"  width={100} height={100}  alt="" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
                 <p className="text-base font-normal lg:text-lg">Helping our customers to grow their business</p>
               </li>
               <li className="flex items-center">
-                <Image src="/checkmark.svg"  width={100} height={100}  alt="Icon" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
+                <Image src="/checkmark.svg"  width={100} height={100}  alt="" className="lg:w-[27px] w-5 lg:h-[27px] h-5 mr-6" />
                 <p className="text-base font-normal lg:text-lg">Provide support to market products through online marketplace</p>
               </li>
             </ul>
