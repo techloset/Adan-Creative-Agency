@@ -8,10 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        "exact-red": "#FF2D59",
+        "exact-purple": "#4C40F7",
+        "exact-orange": "#FF6800",
+        "exact-gray": "#6B6B6B",
+        "exact-green": "#4ADB61",
+        "exact-yellow": "#FFCC00",
+        "exact-blue": "#007BFF",
+        
+      },
+      listStyleImage: {
+        checkmark: 'url("./src/assests/images/checkmark.png")',
       },
     },
   },
