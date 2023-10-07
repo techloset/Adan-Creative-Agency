@@ -2,39 +2,46 @@ import Header from "@/components/Header";
 
 import Image from "next/image";
 
+import Profile1 from "../../../public/profile1.svg"
+import Profile2 from "../../../public/profile2.svg"
+import Profile3 from "../../../public/profile3.svg"
+import Profile4 from "../../../public/profile4.svg"
+import Profile5 from "../../../public/profile5.svg"
+import Profile6 from "../../../public/profile6.svg"
+
 const Data = [
     {
-        image: "/Profile1.png",
+        image: Profile1,
         name: "Ronald Richards",
         company: "Google inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     },
     {
-        image: "/profile2.svg",
+        image: Profile2,
         name: "Guy Hawkins",
         company: "Paypal inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     },
     {
-        image: "/profile3.svg",
+        image: Profile3,
         name: "Kristin Watson",
         company: "Microsoft inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     },
     {
-        image: "/profile4.svg",
+        image: Profile4,
         name: "Robert Fox",
         company: "Facebook inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     },
     {
-        image: "/profile5.svg",
+        image: Profile5,
         name: "Savannah Nguyen",
         company: "Twitter inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
     },
     {
-        image: "/profile6.svg",
+        image: Profile6,
         name: "Courtney Henry",
         company: "Apple inc.",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
@@ -52,17 +59,19 @@ const Profile = () => {
                     {Data.map((item: any, index: number) => {
                         return (
                             <div className="pt-14 flex justify-center" key={index}>
-                                <div className={`flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] hover:shadow-xl  dark:bg-[#00113B] bg-white space-y-6`} >
-                                    <img
+                                <div className={`flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] hover:shadow-xl  dark:bg-[#00113B] bg-exact-white space-y-6`} >
+                                    <Image
+                                    width={50}
+                                    height={50}
                                         src={item.image}
-                                        alt="testimonial"
-                                        className={`-mt-14 rounded-full shadow-2xl `}
+                                        alt=""
+                                        className={`-mt-14 rounded-full shadow-2xl w-[120px] h-[120px]`}
                                     />
-                                    <div className="flex flex-col dark:text-white space-y-2 items-center">
+                                    <div className="flex flex-col dark:text-exact-white space-y-2 items-center">
                                         <h1 className="text-2xl lg:text-lg xl:text-2xl font-semibold">  {item.name} </h1>
-                                        <strong className="text-base font-medium dark:text-white text-[#ABAFC7]"> {item.company} </strong>
+                                        <strong className="text-base font-medium dark:text-exact-white text-[#ABAFC7]"> {item.company} </strong>
                                     </div>
-                                    <p className="text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal dark:text-white text-main-gray"> {item.text} </p>
+                                    <p className="text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal dark:text-exact-white text-exact-gray"> {item.text} </p>
                                     <div className="rating flex space-x-2.5">
                                         <div>
                                             <Image

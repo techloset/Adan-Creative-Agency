@@ -16,7 +16,7 @@ import Compony10 from "../../../public/company10.svg"
 
 const Compony = () => {
     return (
-        <div className={`customersSec mx-[24px] lg:mx-[80px]  xl:mx-[160px]`}>
+        <div className={` mx-[24px] lg:mx-[80px]  xl:mx-[160px]`}>
             <Header
                 Heading="Some of Our Great Customers"
                 Text="Some of the companies we have worked with"

@@ -110,22 +110,25 @@ const Services = () => {
                     {Data.map((item, index: number) => {
                         const Hovered = hover === index;
                         return (
-                            <div key={index} className="flex justify-center">
+                            <div key={index} className="flex justify-center cursor-pointer">
                                 <div
                                     onMouseEnter={() => setHover(index)}
-                                    className={`self-center py-11 px-[30px] shadow-2xl dark:shadow-blue-900/50   space-y-11 max-w-[352px] flex flex-col rounded-2xl items-center ${Hovered ? `${item.bg}` : "bg-white dark:bg-[#00113B]"}`}>
-                                    <div className={`p-8 shadow-xl  rounded-full ${item.shadow} ${Hovered ? "bg-white shadow-gray-800/50" : `${item.bg}`}`}>
-                                        <svg className={`${Hovered ? ` ${item.fill}` : "fill-white"} w-[33px] h-[33px]`} viewBox="0 0 33 33"> {item.svgIcon}servie</svg>
+                                    className={`self-center py-11 px-[30px] shadow-2xl dark:shadow-blue-900/50   space-y-11 max-w-[352px] flex flex-col rounded-2xl items-center ${Hovered ? `${item.bg}` : "bg-exact-white dark:bg-[#00113B]"}`}>
+                                    <div className={`p-8 shadow-xl  rounded-full ${item.shadow} ${Hovered ? "bg-exact-white shadow-gray-800/50" : `${item.bg}`}`}>
+                                        <svg className={`${Hovered ? ` ${item.fill}` : "fill-exact-white"} w-[33px] h-[33px]`} viewBox="0 0 33 33"> {item.svgIcon}servie</svg>
                                     </div>
                                     <div className="info space-y-4">
-                                        <h3 className={`dark:text-white text-xl lg:text-lg xl:text-xl font-semibold ${Hovered ? "text-white" : "text-black"}`} >
+                                        <h3 className={`dark:text-exact-white text-xl lg:text-lg xl:text-xl font-semibold ${Hovered ? "text-exact-white" : "text-black"}`} >
                                             {item.title}
                                         </h3>
-                                        <p className={`dark:text-white lg:max-w-[292px] text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal ${Hovered ? "text-white" : "text-[#6B6B6B]"}`}>
+                                        <p className={`dark:text-exact-white lg:max-w-[292px] text-lg 
+                                        leading-[32px] lg:text-[18px] xl:text-[18px] xl:leading-[32px] font-normal
+                                         ${Hovered ? "text-exact-white" : "text-[#6B6B6B]"}
+                                         font-family: Poppins;;`}>
                                             {item.text}
                                         </p>
                                     </div>
-                                    <div className={`dark:bg-[#020E2D] p-[17px] rounded-full hover:relative hover:left-1 hover:bg-[#F3F4F6] dark:fill-blue-600 fill-blue-600 ${Hovered ? `bg-white ${item.fill} dark:bg-white/100 ` : "bg-[#F3F4F6]"} `}>
+                                    <div className={`dark:bg-[#020E2D] p-[17px] rounded-full hover:relative hover:left-1 hover:bg-[#F3F4F6] dark:fill-blue-600 fill-blue-600 ${Hovered ? `bg-exact-white ${item.fill} dark:bg-exact-white/100 ` : "bg-[#F3F4F6]"} `}>
                                         <svg
                                             className="font-bold w-[11px] h-[11px]"
                                             width="12.000000pt"

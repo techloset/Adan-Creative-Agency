@@ -5,37 +5,36 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 import Image from "next/image";
+
 
 import quotationMarks from "../../../public/Quoations.svg";
 
 const Comment = () => {
+    
+
     return (
-        <div className="bg-[#FE9602] dark:bg-[#020E2D] py-[100px] px-3 md:px-0">
+        <div className=" bg-exact-dark-orange dark:bg-exact-dark py-[100px] px-3 md:px-0">
             <div className="relative mx-[24px] lg:mx-[80px]  xl:mx-[160px]">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
-                    loop={false}
-                    autoplay={{
-                        delay: 2500,
-                        disableOnInteraction: true,
-                    }}
+                    modules={[Autoplay, Navigation, Pagination]}
                     navigation={{
                         nextEl: ".image-swiper-button-next",
                         prevEl: ".image-swiper-button-prev",
                     }}
-                    pagination={{ clickable: true, type: "bullets" }}
-                    className="w-[85%]"
+                    className="w-[85%] "
                 >
                     <SwiperSlide>
-                        <div className="grid text-white space-y-[44px]">
+                        <div className="grid  text-exact-white space-y-[44px] ">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
                             <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-white lg:w-[723px] text-center">
+                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
                                     We are serious about providing our best service to all the customers
                                     we help. Customers satisfaction is our number one priority.
                                 </p>
@@ -48,12 +47,46 @@ const Comment = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="grid text-white space-y-[44px]">
+                        <div className="grid text-exact-white space-y-[44px]">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
                             <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-white lg:w-[723px] text-center">
+                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                                    We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
+                                </p>
+                            </div>
+                            <p className="text-lg md:text-xl lg:text-xl pb-[34px] text-center">
+                                Mark Garfield
+                                <br />
+                                CEO & Head of Product
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="grid text-exact-white space-y-[44px]">
+                            <div className="grid justify-center">
+                                <Image src={quotationMarks} alt="quoteMark" />
+                            </div>
+                            <div className="grid justify-center">
+                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                                    We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
+                                </p>
+                            </div>
+                            <p className="text-lg md:text-xl lg:text-xl pb-[34px] text-center">
+                                Mark Garfield
+                                <br />
+                                CEO & Head of Product
+                            </p>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className="grid text-exact-white space-y-[44px]">
+                            <div className="grid justify-center">
+                                <Image src={quotationMarks} alt="quoteMark" />
+                            </div>
+                            <div className="grid justify-center">
+                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
                                     We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
                                 </p>
                             </div>
@@ -65,7 +98,7 @@ const Comment = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-                <div className="right-0 top-[50%] p-4 absolute rounded-full dark:bg-exact-gray dark:fill-white hover:fill-white hover:bg-exact-purple bg-white w-fit fill-exact-purple">
+                <div className="image-swiper-button-next right-0 top-[50%] p-4 absolute rounded-full dark:bg-exact-gray dark:fill-white hover:fill-white hover:bg-exact-purple bg-white w-fit fill-exact-purple"  >
                     <svg
                         className="font-bold w-[12px] h-[12px]"
                         width="12.000000pt"
@@ -78,7 +111,7 @@ const Comment = () => {
                         </g>
                     </svg>
                 </div>
-                <div className="rotate-180 top-[50%] p-4 absolute rounded-full dark:bg-exact-gray dark:fill-white hover:fill-white hover:bg-exact-purple bg-white w-fit fill-exact-purple">
+                <div className="image-swiper-button-prev rotate-180 cursor-pointer top-[50%] p-4 absolute rounded-full dark:bg-exact-gray dark:fill-exact-white hover:fill-exact-white hover:bg-exact-purple bg-exact-white w-fit fill-exact-purple" >
                     <svg
                         className="font-bold w-[12px] h-[12px]"
                         width="12.000000pt"
@@ -91,6 +124,7 @@ const Comment = () => {
                         </g>
                     </svg>
                 </div>
+
             </div>
         </div>
     )

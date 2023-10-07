@@ -11,26 +11,16 @@ const Dashboard = () => {
             </div>
             <div className="mx-[24px] lg:mx-[80px]  xl:mx-[160px]">
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                    <div className="space-y-6 xl:mt-[80px] my-20 dark:text-white">
-                        <h1 className="text-2xl text-[#111029] dark:text-[#fff] md:text-[42px] md:leading-[52px] xl:text-[56px] xl:leading-[72px]  tracking-[-0.8px] font-semibold">
-                            Make your business
-                            <span className="text-[#FF6800] dark:text-[#FC0]">
-                                {" "}
-                                more powerful{" "}
-                            </span>
-                            <br />
-                            with us
-                        </h1>
-                        <p className=" md:text-[17px] text-[15px] xl:text-lg leading-[32px] lg:!w-[380px] !font-normal text-[#6B6B6B] dark:text-[#fff]">
+                    <div className="space-y-6 xl:mt-[80px] my-20 dark:text-exact-white">
+                        <h1 className="text-2xl text-[#111029] dark:text-exact-white md:text-[42px] md:leading-[52px] xl:text-[56px] xl:leading-[72px]  tracking-[-0.8px] font-semibold">Make your business<span className="text-exact-orange  dark:text-exact-light-orange">{" "}more powerful{" "}</span><br />with us</h1>
+                        <p className=" md:text-[17px] text-[15px] xl:text-lg leading-[32px] lg:!w-[380px] !font-normal text-exact-gray dark:text-exact-white">
                             We provide various services to make{" "}
                             <br className="hidden xl:inline" /> your business grow and get
                             bigger. Your satisfaction is our first priority.
                         </p>
-                        <button
-                            className={`w-fit shadow-[-5px_10px_30px_rgba(76,64,247,0.5)] py-[19px] px-[35px] bg-[#4C40F7] rounded-xl`}
-                        >
+                        <button className={`w-fit shadow-[-5px_10px_30px_rgba(76,64,247,0.5)] py-[19px] px-[35px] bg-exact-purple rounded-xl`}>
                             <span className="flex items-baseline">
-                                <p className="text-base font-semibold leading-[26px] text-white">
+                                <p className="text-base font-semibold leading-[26px] text-exact-white">
                                     Get Started
                                 </p>
                                 <Image

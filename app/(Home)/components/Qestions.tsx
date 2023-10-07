@@ -40,7 +40,7 @@ const Qestions = () => {
 
     const DropDown = ({ Number }: any) => {
         if (isOpen.indexOf(Number) === -1) {
-            setIsOpen([...isOpen, Number])
+            setIsOpen([Number])
         } else {
             setIsOpen((Item) => Item.filter((item) => item !== Number));
         }
@@ -61,7 +61,7 @@ const Qestions = () => {
                                 <div
                                     onClick={() => DropDown(item)}
                                     className={` flex cursor-pointer justify-between items-center ${isOpen?.indexOf(item.Number) > -1 ? "border-b-[1px] pb-7" : "border-none"}`} >
-                                    <h1 className="dark:text-white font-medium text-sm lg:text-base">
+                                    <h1 className="dark:text-exact-white font-medium text-sm lg:text-base">
                                         {item.Heading}
                                     </h1>
                                     <Image
@@ -73,7 +73,7 @@ const Qestions = () => {
                                     />
                                 </div>
                                 <div className={`${isOpen?.indexOf(item.Number) > -1 ? "block" : "hidden"} `} >
-                                    <p className="text-[#6B6B6B] font-normal text-sm lg:text-lg lg:leading-8 dark:text-white/75">
+                                    <p className="text-exact-gray font-normal text-sm lg:text-lg lg:leading-8 dark:text-exact-white/75">
                                         {item.Text}
                                     </p>
                                 </div>

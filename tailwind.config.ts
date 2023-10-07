@@ -9,17 +9,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        "exact-white":"#FFF",
+        "exact-black":"#000",
         "exact-red": "#FF2D59",
-        "exact-purple": "#4C40F7",
-        "exact-orange": "#FF6800",
-        "exact-gray": "#6B6B6B",
         "exact-green": "#4ADB61",
         "exact-yellow": "#FFCC00",
         "exact-blue": "#007BFF",
-        
-      },
-      listStyleImage: {
-        checkmark: 'url("./src/assests/images/checkmark.png")',
+        "exact-purple": "#4C40F7",
+        "exact-orange": "#FF6800",
+        "exact-gray": "#6B6B6B", 
+        "exact-dark":"#020E2D" ,
+        "exact-dark-orange":"#FE9602",
+        "exact-light-orange":"#FC0",
+
       },
     },
   },
