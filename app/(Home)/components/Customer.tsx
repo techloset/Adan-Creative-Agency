@@ -1,11 +1,11 @@
 import Image from "next/image";
 const Customer = () => {
   return (
-    <div className=" lg:mb-[200px]  bg-exact-white dark:bg-[#020E2D] py-[105px]">
+    <div className=" lg:mb-[200px]  bg-[#F9F9FD] dark:bg-[#020E2D] py-[105px]">
       <div className={`mx-[24px] lg:mx-[80px]  xl:mx-[160px] flex flex-col lg:flex-row gap-y-10 space-x-10 justify-between items-center`}>
         <div className="grid  grid-cols-1 md:grid-cols-2 gap-10 justify-center">
           <div className="grid gap-10 md:mt-12">
-          <div className="rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple  bg-exact-white">
+          <div className="rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple  bg-exact-white shadow-lg">
               <h2 className=" text-[56px] lg:text-4xl xl:text-[56px] leading-[72px] xl:leading-[72px] font-semibold text-exact-purple dark:text-exact-white " >
                 70K+
               </h2>
@@ -15,7 +15,7 @@ const Customer = () => {
             </div>
 
 
-            <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white">
+            <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white shadow-lg">
               <h2 className="text-exact-red text-[56px] lg:text-4xl xl:text-[56px] leading-[72px] xl:leading-[72px] font-semibold  " >
               10M+
               </h2>
@@ -26,7 +26,7 @@ const Customer = () => {
  
           </div>
           <div className="grid gap-10 md:mb-12">
-          <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white">
+          <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white shadow-lg">
               <h2 className=" text-[56px] lg:text-4xl xl:text-[56px] leading-[72px] xl:leading-[72px] font-semibold text-exact-orange" >
               100+
               </h2>
@@ -35,7 +35,7 @@ const Customer = () => {
               </p>
             </div>
 
-            <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white">
+            <div className=" rounded-[20px] py-[72px] space-y-5 px-7 text-center dark:bg-exact-purple bg-exact-white shadow-lg">
               <h2 className=" text-[56px] lg:text-4xl xl:text-[56px] leading-[72px] xl:leading-[72px] font-semibold text-exact-green" >
                 200+
               </h2>

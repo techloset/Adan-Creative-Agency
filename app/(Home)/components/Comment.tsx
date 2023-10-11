@@ -17,7 +17,7 @@ const Comment = () => {
 
     return (
         <div className=" bg-exact-dark-orange dark:bg-exact-dark py-[100px] px-3 md:px-0">
-            <div className="relative mx-[24px] lg:mx-[80px]  xl:mx-[160px]">
+            <div className="relative mx-[24px] lg:mx-[160px] md:mx-[80px]  xl:mx-[160px]">
                 <Swiper
                     slidesPerView={1}
                     spaceBetween={30}
@@ -26,15 +26,15 @@ const Comment = () => {
                         nextEl: ".image-swiper-button-next",
                         prevEl: ".image-swiper-button-prev",
                     }}
-                    className="w-[85%] "
+                    className="w-[85%]"
                 >
                     <SwiperSlide>
                         <div className="grid  text-exact-white space-y-[44px] ">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
-                            <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                            <div className="grid justify-center w-[]">
+                                <p className="text-lg text-[28px]  md:text-[24px] xl:text-[28px] tracking-[-0.8px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
                                     We are serious about providing our best service to all the customers
                                     we help. Customers satisfaction is our number one priority.
                                 </p>
@@ -47,13 +47,14 @@ const Comment = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="grid text-exact-white space-y-[44px]">
+                    <div className="grid  text-exact-white space-y-[44px] ">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
-                            <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
-                                    We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
+                            <div className="grid justify-center w-[]">
+                                <p className="text-lg text-[28px]  md:text-[24px] xl:text-[28px] tracking-[-0.8px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                                    We are serious about providing our best service to all the customers
+                                    we help. Customers satisfaction is our number one priority.
                                 </p>
                             </div>
                             <p className="text-lg md:text-xl lg:text-xl pb-[34px] text-center">
@@ -64,13 +65,14 @@ const Comment = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="grid text-exact-white space-y-[44px]">
+                    <div className="grid  text-exact-white space-y-[44px] ">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
-                            <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
-                                    We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
+                            <div className="grid justify-center w-[]">
+                                <p className="text-lg text-[28px]  md:text-[24px] xl:text-[28px] tracking-[-0.8px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                                    We are serious about providing our best service to all the customers
+                                    we help. Customers satisfaction is our number one priority.
                                 </p>
                             </div>
                             <p className="text-lg md:text-xl lg:text-xl pb-[34px] text-center">
@@ -81,13 +83,14 @@ const Comment = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide>
-                        <div className="grid text-exact-white space-y-[44px]">
+                    <div className="grid  text-exact-white space-y-[44px] ">
                             <div className="grid justify-center">
                                 <Image src={quotationMarks} alt="quoteMark" />
                             </div>
-                            <div className="grid justify-center">
-                                <p className="text-lg md:text-2xl xl:text-[28px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
-                                    We are serious about providing our best service to all the customers we help. Customers satisfaction is our number one priority.
+                            <div className="grid justify-center w-[]">
+                                <p className="text-lg text-[28px]  md:text-[24px] xl:text-[28px] tracking-[-0.8px] xl:leading-10 font-normal px-4 text-exact-white lg:w-[723px] text-center">
+                                    We are serious about providing our best service to all the customers
+                                    we help. Customers satisfaction is our number one priority.
                                 </p>
                             </div>
                             <p className="text-lg md:text-xl lg:text-xl pb-[34px] text-center">

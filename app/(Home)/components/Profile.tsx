@@ -59,7 +59,7 @@ const Profile = () => {
                     {Data.map((item: any, index: number) => {
                         return (
                             <div className="pt-14 flex justify-center" key={index}>
-                                <div className={`flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] hover:shadow-xl  dark:bg-[#00113B] bg-exact-white space-y-6`} >
+                                <div className={`flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] shadow-none hover:shadow-xl  dark:bg-[#00113B] bg-exact-white space-y-6`} >
                                     <Image
                                     width={50}
                                     height={50}

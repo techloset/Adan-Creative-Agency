@@ -121,10 +121,7 @@ const Services = () => {
                                         <h3 className={`dark:text-exact-white text-xl lg:text-lg xl:text-xl font-semibold ${Hovered ? "text-exact-white" : "text-black"}`} >
                                             {item.title}
                                         </h3>
-                                        <p className={`dark:text-exact-white lg:max-w-[292px] text-lg 
-                                        leading-[32px] lg:text-[18px] xl:text-[18px] xl:leading-[32px] font-normal
-                                         ${Hovered ? "text-exact-white" : "text-[#6B6B6B]"}
-                                         font-family: Poppins;;`}>
+                                        <p className={`dark:text-exact-white lg:max-w-[292px] text-lg  leading-[32px] lg:text-[18px] xl:text-[18px] xl:leading-[32px] font-normal ${Hovered ? "text-exact-white" : "text-[#6B6B6B]"}`}>
                                             {item.text}
                                         </p>
                                     </div>
