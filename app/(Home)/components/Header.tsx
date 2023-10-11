@@ -31,9 +31,9 @@ const Header = () => {
                         </div>
                     </div>
                     <ul className={`flex flex-col items-center md:space-x-20 space-y-10 ${!openMenu ? "invisible md:visible" : "visible"} md:space-y-0 mt-10 md:mt-0 lg:mt-0 h-screen md:h-auto md:flex-row`} >
-                        <li className={` text-exact-purple cursor-pointer dark:text-exact-yellow text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow`}><Link href={"#"}>Home</Link></li>
-                        <li className={` text-exact-gray cursor-pointer dark:text-white text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow`}><Link href={"#"}>Work</Link></li>
-                        <li className={`text-exact-gray cursor-pointer dark:text-white text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow`}><Link href={"#"}>About</Link></li>
+                        <li className={` text-exact-purple cursor-pointer dark:text-exact-yellow text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow font-semibold`}><Link href={"#"}>Home</Link></li>
+                        <li className={` text-exact-gray cursor-pointer dark:text-white text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow font-semibold`}><Link href={"#"}>Work</Link></li>
+                        <li className={`text-exact-gray cursor-pointer dark:text-white text-xl  hover:text-exact-purple  dark:hover:text-exact-yellow font-semibold`}><Link href={"#"}>About</Link></li>
                     </ul>
                     <button className={`text-base w-full ${!openMenu ? "invisible md:visible" : "visible"} md:max-w-fit leading-[26px] font-semibold md:shadow-[-5px_10px_30px_rgba(76,64,247,0.5)] py-[19px] px-[35px] bg-exact-purple rounded-xl text-white`}>Contact us</button>
                 </nav>
