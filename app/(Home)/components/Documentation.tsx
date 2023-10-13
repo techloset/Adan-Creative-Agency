@@ -19,9 +19,9 @@ const Documentation = () => {
         </div>
       </div>
       <div
-        className={` relative grid grid-cols-1 w-full justify-center`}>
-        <Image src={Bg} alt="image not found" className="w-full" />
-        <div className="flex justify-center absolute top-2 mx-[24px] lg:mx-[80px]  xl:mx-[160px]">
+        className={` relative grid grid-cols-1 w-full justify-center mt-20`}>
+        <Image src={Bg} alt="" className="w-full " />
+        <div className="flex justify-center absolute top-2 mx-[24px] lg:mx-[80px]  xl:mx-[160px] -mt-18">
           <Image
             src={video}
             alt=""

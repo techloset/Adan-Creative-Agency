@@ -6,7 +6,7 @@ const Interior = () => {
   return (
     <div className={`relative lg:pb-[200px] pb-[100px] bg-bottom`}>
       <Image src="/curve.png" alt="" height={1000} width={1000} className="w-full absolute  xl:top-56 md:top-10" />
-      <Image src="/curve.png" alt="" height={1000} width={1000} className="w-full absolute    xl:-bottom-80 md:-bottom-20" />
+      <Image src="/curve.png" alt="" height={1000} width={1000} className="w-full absolute -mb-20    xl:-bottom-[400px] md:-bottom-40" />
       <div className={`mx-[24px] lg:mx-[80px]  xl:mx-[160px]`}>
         <Header
           Heading="Working space"
